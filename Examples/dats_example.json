@@ -17,18 +17,18 @@
       "firstName": "Jordan",
       "middleName": "",
       "lastName": "DeKraker",
-      "afiliations": 
+      "afiliations":
       [
         {
           "name": "Khan Computational Imaging Lab"
         },
-	{
-	  "name": "Köhler Memory Lab"
-	},
-        { 
+	    {
+	      "name": "Köhler Memory Lab"
+	    },
+        {
           "name": "Robarts Research Institute"
         },
-        { 
+        {
           "name": "University of Western Ontario"
         }
       ]
@@ -43,10 +43,10 @@
         {
           "name": "Khan Computational Imaging Lab"
         },
-        { 
+        {
           "name": "Robarts Research Institute"
         },
-        { 
+        {
           "name": "University of Western Ontario"
         }
       ]
@@ -61,10 +61,10 @@
         {
           "name": "Khan Computational Imaging Lab"
         },
-        { 
+        {
           "name": "Robarts Research Institute"
         },
-        { 
+        {
           "name": "University of Western Ontario"
         }
       ]
@@ -79,13 +79,13 @@
         {
           "name": "Khan Computational Imaging Lab"
         },
-	{
-	  "name": "Köhler Memory Lab"
-	},
-        { 
+	    {
+	      "name": "Köhler Memory Lab"
+	    },
+        {
           "name": "Brain and Mind Institute"
         },
-        { 
+        {
           "name": "University of Western Ontario"
         }
       ]
@@ -100,10 +100,10 @@
         {
           "name": "Köhler Memory Lab"
         },
-        { 
+        {
           "name": "Brain and Mind Institute"
         },
-        { 
+        {
           "name": "University of Western Ontario"
         }
       ]
