@@ -17,3 +17,4 @@ Additional (optional) fields include:
 - [ ] primaryPublications
 - [ ] extraProperties
 - [ ] acknowledges
+- [ ] authors

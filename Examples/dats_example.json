@@ -1,0 +1,130 @@
+{
+  "title": "Hippocampal morphology and cytoarchitecture in the 3D BigBrain",
+  "description": "This project's preprint can be found here: https://www.biorxiv.org/content/10.1101/599571v1. The goal of this project is to characterize the complex mesoscale folding of the hippocampus as well as histological features which define the hippocmapal subfields using the open source dataset 3D BigBrain.",
+  "dates": [
+    {
+      "@type": "Date",
+      "date": "2019-04-01 00:00:00",
+      "type": {
+        "@type": "Annotation",
+        "value": "Start Date"
+      }
+    }
+  ],
+  "creators": [
+    {
+      "fullName": "Jordan DeKraker",
+      "firstName": "Jordan",
+      "middleName": "",
+      "lastName": "DeKraker",
+      "afiliations": 
+      [
+        {
+          "name": "Khan Computational Imaging Lab"
+        },
+	{
+	  "name": "Köhler Memory Lab"
+	},
+        { 
+          "name": "Robarts Research Institute"
+        },
+        { 
+          "name": "University of Western Ontario"
+        }
+      ]
+    },
+    {
+      "fullName": "Jonathan C. Lau",
+      "firstName": "Jonathan",
+      "middleName": "C.",
+      "lastName": "Lau",
+      "affiliations":
+      [
+        {
+          "name": "Khan Computational Imaging Lab"
+        },
+        { 
+          "name": "Robarts Research Institute"
+        },
+        { 
+          "name": "University of Western Ontario"
+        }
+      ]
+    },
+    {
+      "fullName": "Ali R. Khan",
+      "firstName": "Ali",
+      "middleName": "R.",
+      "lastName": "Khan",
+      "affiliations":
+      [
+        {
+          "name": "Khan Computational Imaging Lab"
+        },
+        { 
+          "name": "Robarts Research Institute"
+        },
+        { 
+          "name": "University of Western Ontario"
+        }
+      ]
+    },
+    {
+      "fullName": "Kayla Ferko",
+      "firstName": "Kayla",
+      "middleName": "",
+      "lastName": "Ferko",
+      "affiliations":
+      [
+        {
+          "name": "Khan Computational Imaging Lab"
+        },
+	{
+	  "name": "Köhler Memory Lab"
+	},
+        { 
+          "name": "Brain and Mind Institute"
+        },
+        { 
+          "name": "University of Western Ontario"
+        }
+      ]
+    },
+    {
+      "fullName": "Stefan Köhler",
+      "firstName": "Stefan",
+      "middleName": "",
+      "lastName": "Köhler",
+      "affiliations":
+      [
+        {
+          "name": "Köhler Memory Lab"
+        },
+        { 
+          "name": "Brain and Mind Institute"
+        },
+        { 
+          "name": "University of Western Ontario"
+        }
+      ]
+    }
+  ],
+  "storedIn": {
+    "name": "Open Science Framework"
+  },
+  "types": [
+    {
+      "method": {
+        "value": "Histology"
+      }
+    }
+  ],
+  "version": "1.0.0",
+  "privacy": "Open Access",
+  "licenses": [
+    {
+      "@type": "License",
+      "name": "CC-By Attribution 4.0 International"
+    }
+  ]
+}
