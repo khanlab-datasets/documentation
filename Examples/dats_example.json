@@ -1,6 +1,6 @@
 {
   "title": "Hippocampal morphology and cytoarchitecture in the 3D BigBrain",
-  "description": "This project's preprint can be found here: https://www.biorxiv.org/content/10.1101/599571v1. The goal of this project is to characterize the complex mesoscale folding of the hippocampus as well as histological features which define the hippocmapal subfields using the open source dataset 3D BigBrain.",
+  "description": "This project's preprint can be found here: https://www.biorxiv.org/content/10.1101/599571v1. The goal of this project is to characterize the complex mesoscale folding of the hippocampus as well as histological features which define the hippocampal subfields using the open source dataset 3D BigBrain.",
   "dates": [
     {
       "@type": "Date",
@@ -15,20 +15,19 @@
     {
       "fullName": "Jordan DeKraker",
       "firstName": "Jordan",
-      "middleName": "",
       "lastName": "DeKraker",
-      "afiliations":
+      "affiliations": 
       [
         {
           "name": "Khan Computational Imaging Lab"
         },
-	    {
-	      "name": "Köhler Memory Lab"
-	    },
-        {
+	{
+	  "name": "Köhler Memory Lab"
+	},
+        { 
           "name": "Robarts Research Institute"
         },
-        {
+        { 
           "name": "University of Western Ontario"
         }
       ]
@@ -36,17 +35,17 @@
     {
       "fullName": "Jonathan C. Lau",
       "firstName": "Jonathan",
-      "middleName": "C.",
+      "middleInitial": "C.",
       "lastName": "Lau",
       "affiliations":
       [
         {
           "name": "Khan Computational Imaging Lab"
         },
-        {
+        { 
           "name": "Robarts Research Institute"
         },
-        {
+        { 
           "name": "University of Western Ontario"
         }
       ]
@@ -54,17 +53,17 @@
     {
       "fullName": "Ali R. Khan",
       "firstName": "Ali",
-      "middleName": "R.",
+      "middleInitial": "R.",
       "lastName": "Khan",
       "affiliations":
       [
         {
           "name": "Khan Computational Imaging Lab"
         },
-        {
+        { 
           "name": "Robarts Research Institute"
         },
-        {
+        { 
           "name": "University of Western Ontario"
         }
       ]
@@ -72,20 +71,19 @@
     {
       "fullName": "Kayla Ferko",
       "firstName": "Kayla",
-      "middleName": "",
       "lastName": "Ferko",
       "affiliations":
       [
         {
           "name": "Khan Computational Imaging Lab"
         },
-	    {
-	      "name": "Köhler Memory Lab"
-	    },
-        {
+	{
+	  "name": "Köhler Memory Lab"
+	},
+        { 
           "name": "Brain and Mind Institute"
         },
-        {
+        { 
           "name": "University of Western Ontario"
         }
       ]
@@ -93,17 +91,16 @@
     {
       "fullName": "Stefan Köhler",
       "firstName": "Stefan",
-      "middleName": "",
       "lastName": "Köhler",
       "affiliations":
       [
         {
           "name": "Köhler Memory Lab"
         },
-        {
+        { 
           "name": "Brain and Mind Institute"
         },
-        {
+        { 
           "name": "University of Western Ontario"
         }
       ]
@@ -119,12 +116,83 @@
       }
     }
   ],
+"keywords": [
+		{
+			"value" : "hippocampus"
+		},
+		{
+			"value" : "3D BigBrain"
+		},
+		{
+			"value" : "mesoscale folding"
+		},
+		{
+			"value" : "human brain"
+		},
+		{
+			"value" : "cytoarchitecture"
+		}
+  ],
   "version": "1.0.0",
   "privacy": "Open Access",
+  "distributions": [
+	        {
+			"formats": [
+				"NIfTI",
+				".STL"
+            		],
+			"size" : 14,
+		        "unit" : {
+            			"value": "GB"
+		        },
+			"access": {
+				"landingPage": "https://github.com/khanlab-datasets/BigBrainHippoUnfold",
+				"authorizations": [
+					{
+						"value": "public"
+					}
+				]
+			}
+		}
+	],
   "licenses": [
     {
       "@type": "License",
       "name": "CC-By Attribution 4.0 International"
     }
-  ]
+  ],
+"extraProperties": [
+		{
+			"category": "files",
+			"values": [
+				{
+					"value": "134"
+				}
+			]
+		},
+		{
+			"category": "CONP_status",
+			"values": [
+				{
+					"value": "Canadian"
+				}
+			]
+		},
+		{
+			"category": "contact",
+			"values": [
+				{
+					"value": "Ali R. Khan, Khan Computational Imaging Lab, Robarts Research Institute, University of Western Ontario  alik@robarts.ca"
+				}
+			]
+		},
+		{
+			"category": "logo",
+			"values": [
+				{
+					"value": "logo.png"
+				}
+			]
+		}
+	]
 }
