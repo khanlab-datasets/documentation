@@ -1,4 +1,5 @@
-# Datalad-osf
+# Datalad-osf (Last Updated: March 11, 2020)
+
 To more easily convert a dataset from OSF to Datalad, `datalad-osf`, the utility scripts created by [TemplateFlow](https://github.com/templateflow) have been modified and made available at the following Github repository (link to be added).
 
 A command-line version of the tool has been created and can be called using the command `datalad-osf` following installation. This tool may be included in existing Khanlab containers in the future. Setup of this utility requires Python 3 and a number of Python dependencies (see `requirements.txt` contained in the repository).
@@ -92,12 +93,12 @@ _Note: Conversion of the dataset will store a (temporary) copy of the data local
 
 10. Navigate to the installed conp-dataset. Check that you are currently working on the master branch `git checkout master`. Add dataset to be shared as a submodule to the conp-dataset fork.
 ```
-git submodule add https://github.com/khanlab-datasets/<project_name>.git investigators/Khanlab/<project_name>
+git submodule add https://github.com/khanlab-datasets/<project_name>.git projects/Khanlab/<project_name>
 ```
 
 11. Save and publish the modifications to fork.
 ```
-git commit -m "Added investigators/Khanlab/<project_name>"
+git commit -m "Added projects/Khanlab/<project_name>"
 git push
 ```
 

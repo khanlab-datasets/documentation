@@ -1,0 +1,49 @@
+{
+  "title": "Project Title",
+  "description": "Description of Title",
+  "dates": [
+    {
+      "@type": "Date",
+      "date": "2019-01-01 00:00:00",
+      "type": {
+        "@type": "Annotation",
+        "value": "Start Date"
+      }
+    }
+  ],
+  "creators": [
+    {
+      "fullName": "",
+      "firstName": "",
+      "middleName": "",
+      "lastName": "",
+      "afiliations":
+      [
+        {
+          "name": "Affiliation 1"
+        },
+        {
+          "name": "Affiliation 2"
+        },
+      ]
+    }
+  ],
+  "storedIn": {
+    "name": "Location of storage (eg. OSF)"
+  },
+  "types": [
+    {
+      "method": {
+        "value": "Type of data (eg. MRI, Histology)"
+      }
+    }
+  ],
+  "version": "1.0.0",
+  "privacy": "Type of Access (eg. Open Access, Restricted Access)",
+  "licenses": [
+    {
+      "@type": "License",
+      "name": "Type of License (eg. CC-By Attribution 4.0 International)"
+    }
+  ]
+}
