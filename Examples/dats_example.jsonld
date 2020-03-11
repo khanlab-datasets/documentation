@@ -1,0 +1,238 @@
+{
+	"@context": 
+		[
+			{ 
+				"dats": "https://w3id.org/dats/schema/",
+				"dimensions": "dats:dimensions",
+				"extraProperties": "dats:extraProperties"
+			},
+			{
+				"sdo": "https://schema.org/",
+				"Dataset": "sdo:Dataset",
+				"title": {
+					"@id": "sdo:name",
+					"@type": "sdo:Text"
+				},
+				"description": {
+					"@id": "sdo:description",
+					"@type": "sdo:Text"
+				},
+				"distributions": {
+					"@id": "sdo:distribution",
+					"@type": "sdo:DataDownload"
+				},
+				"primaryPublications": "sdo:citation",
+				"citations": "sdo:citation",
+				"producedBy": "sdo:producer",
+				"creators": "sdo:creator",
+				"licenses": "sdo:license",
+				"isAbout": "sdo:about",
+				"hasPart": "sdo:hasPart",
+				"acknowledges": "sdo:funder",
+				"keywords": "sdo:keywords",
+				"dates": "sdo:date",
+				"storedIn": "sdo:url"
+			}
+		],
+  "title": "Hippocampal morphology and cytoarchitecture in the 3D BigBrain",
+  "description": "This project's preprint can be found here: https://www.biorxiv.org/content/10.1101/599571v1. The goal of this project is to characterize the complex mesoscale folding of the hippocampus as well as histological features which define the hippocampal subfields using the open source dataset 3D BigBrain.",
+  "dates": [
+    {
+    	"@id": "https://w3id.org/dats/schema/date_info_schema.json",
+    	"@type": "Date",
+      "date": "2019-04-01 00:00:00",
+      "type": {
+        "@type": "Annotation",
+        "value": "Start Date"
+      }
+    }
+  ],
+  "creators": [
+    {
+    	"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+    	"@type": "Annotation",
+      "fullName": "Jordan DeKraker",
+      "firstName": "Jordan",
+      "middleName": "",
+      "lastName": "DeKraker",
+      "affiliations": 
+      [
+        {
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators",
+          "name": "Khan Computational Imaging Lab"
+        },
+	{
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators",
+	  "name": "Köhler Memory Lab"
+	},
+        {
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators", 
+          "name": "Robarts Research Institute"
+        },
+        {
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators", 
+          "name": "University of Western Ontario"
+        }
+      ]
+    },
+    {
+      "fullName": "Jonathan C. Lau",
+      "firstName": "Jonathan",
+      "middleName": "C.",
+      "lastName": "Lau",
+      "affiliations":
+      [
+        {
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators",
+          "name": "Khan Computational Imaging Lab"
+        },
+        {
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators", 
+          "name": "Robarts Research Institute"
+        },
+        {
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators", 
+          "name": "University of Western Ontario"
+        }
+      ]
+    },
+    {
+      "fullName": "Ali R. Khan",
+      "firstName": "Ali",
+      "middleName": "R.",
+      "lastName": "Khan",
+      "affiliations":
+      [
+        {
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators",
+          "name": "Khan Computational Imaging Lab"
+        },
+        { 
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators",
+          "name": "Robarts Research Institute"
+        },
+        { 
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators",
+          "name": "University of Western Ontario"
+        }
+      ]
+    },
+    {
+      "fullName": "Kayla Ferko",
+      "firstName": "Kayla",
+      "middleName": "",
+      "lastName": "Ferko",
+      "affiliations":
+      [
+        {
+        	"@id": "https://w3id.org/dats/schema/organization_schema.json",
+        	"@type": "creators",
+          "name": "Khan Computational Imaging Lab"
+        },
+	{
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators",
+	  "name": "Köhler Memory Lab"
+	},
+        { 
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators",
+          "name": "Brain and Mind Institute"
+        },
+        { 
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators",
+          "name": "University of Western Ontario"
+        }
+      ]
+    },
+    {
+      "fullName": "Stefan Köhler",
+      "firstName": "Stefan",
+      "middleName": "",
+      "lastName": "Köhler",
+      "affiliations":
+      [
+        {
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators",
+          "name": "Köhler Memory Lab"
+        },
+        { 
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators",
+          "name": "Brain and Mind Institute"
+        },
+        { 
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "creators",
+          "name": "University of Western Ontario"
+        }
+      ]
+    }
+  ],
+  "storedIn": {
+    "name": "Open Science Framework"
+  },
+  "types": [
+    {
+      "method": {
+        "value": "Histology"
+      }
+    }
+  ],
+  "version": "1.0.0",
+  "privacy": "Open Access",
+  "distributions": [
+	        {
+	        	"@id": "http://json-schema.org/draft-04/schema",
+	        	"@type": "DatasetDistribution",
+			"formats": [
+				"nifti",
+				".stl"
+            		],
+			"size" : "14",
+		        "unit" : {
+            			"value": "GB"
+		        },
+			"access": {
+				"landingPage": "https://github.com/khanlab-datasets/BigBrainHippoUnfold"
+			}
+		}
+	],
+  "licenses": [
+    {
+    	"@id": "https://w3id.org/dats/schema/license_schema.json",
+    	"@type": "License",
+        "name": "CC-By Attribution 4.0 International"
+    }
+  ],
+"extraProperties": [
+		{
+			"category": "contact",
+			"values": [
+				{
+					"value": "Jennifer Tremblay-Mercier, Research Co-ordinator, jennifer.tremblay-mercier@douglas.mcgill.ca, 514-761-6131 #3329"
+				}
+			]
+		},
+		{
+			"category": "files",
+			"values": [
+				{
+					"value": "134"
+				}
+			]
+		}
+	]
+}
